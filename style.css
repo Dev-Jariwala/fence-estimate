@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    width: 150px;
+    height: 3px;
+    margin: auto;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.container .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.container .header h6 {
+    color: #555;
+}
+
+.container .details {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: auto;
+    padding: 30px 10px
+}
+
+.details p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container .fences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container .fences .available-heights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .fences .available-heights h6 {
+    margin: 10px 0;
+}
+
+.container .fences .available-heights .height-btns {
+    margin: 10px 0;
+}
+
+.fences-selected {
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.fences-selected .fence {
+    /* background-color: yellow; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+
+.fences-selected .fence img {
+    margin: 10px 0;
+    width: 250px;
+}
+
+.fences-selected .fence .warenty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.fences-selected .fence .warenty img{
+    width: 200px;
+}
+
+.fences-selected .fence .warenty p {
+    padding: o 20px;
+    margin-left: 15px;
+}
+
+.fences-selected .fence .height-options {
+    margin: 10px 0;
+}
+
+.fences-selected .fence .height-options .hoptions {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto 5px;
+}
+
+.container .contact-us {
+    margin: 20px auto;
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us .social-medias {
+    display: flex;
+}
+
+.social-medias .social-media {
+    margin: 0 10px;
+}
+
+.social-medias .call {
+    margin-left: 20px;
+}
+
+@media screen and (max-width:910px) {
+    .container .details {
+        width: 90%;
+        font-size: 12px;
+    }
+}
