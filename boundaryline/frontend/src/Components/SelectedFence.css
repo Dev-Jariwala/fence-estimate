@@ -1,0 +1,101 @@
+.sfence {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.sfence img {
+    margin: 10px 0;
+    width: 250px;
+    height: 120px;
+}
+
+.sfence .warenty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.sfence .warenty img {
+    width: 50px;
+    height: 50px;
+}
+
+.sfence .warenty p {
+    padding: o 20px;
+    margin-left: 15px;
+}
+
+.sfence .estim-length {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    margin: 10px auto;
+    width: 90%;
+}
+
+.sfence .estim-length h4 {
+    margin: 5px auto;
+}
+
+.sfence .estim-length p {
+    font-size: 10px;
+}
+
+.sfence .estim-length .seekbar input[type=range] {
+    width: 190px;
+}
+
+.sfence .estimated-price {
+    background-color: #ff5151;
+    width: 127%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px 10px;
+}
+
+.sfence .estimated-price .price {
+    margin: 5px auto;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.sfence .estimated-price .price span {
+    font-size: 32px;
+}
+
+.sfence .estimated-price .summary span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sfence .note {
+    font-size: 12px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.sfence .form form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.sfence .form form input {
+    margin: 7px auto;
+    padding: 5px 10px;
+}
+
+.sfence .form form .download {
+    padding: 7px 15px;
+    margin: 5px auto;
+}

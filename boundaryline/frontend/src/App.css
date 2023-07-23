@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 150px;
+  height: 3px;
+  margin: auto;
+  background-color: #ccc;
+  border-radius: 10px;
+}

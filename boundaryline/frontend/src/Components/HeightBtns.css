@@ -1,0 +1,18 @@
+.container .available-heights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .available-heights h6 {
+    margin: 10px 0;
+}
+
+.container .available-heights .height-btns {
+    margin: 10px 0;
+}
+.container .available-heights .height-btns .height-btn {
+    margin: 0 5px;
+    padding: 5px 10px
+}

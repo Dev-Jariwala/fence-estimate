@@ -1,0 +1,60 @@
+.fences {
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.fences .fence {
+    /* background-color: yellow; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+
+.fences .fence img {
+    margin: 10px 0;
+    width: 250px;
+    height: 120px;
+}
+
+.fences .fence .warenty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.fences .fence .warenty img{
+    width: 50px;
+    height: 50px;
+}
+
+.fences .fence .warenty p {
+    padding: o 20px;
+    margin-left: 15px;
+}
+
+.fences .fence .height-options {
+    margin: 10px 0;
+}
+
+.fences .fence .height-options .hoptions {
+    width: max-content;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; */
+    margin: 10px auto 5px;
+}
+.fences .fence .height-options .hoption{
+    margin: 0 5px;
+    padding: 5px 10px;
+}
